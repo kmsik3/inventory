@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Users</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="contentContainer">
+  <div id="sideBar">
+    <h1>Clients</h1>
+    <select>
+      <option value="create">Choose Clients</option>
+      <!-- 
+      <option value="User2">User2</option>
+      <option value="User3">User3</option>
+      <option value="User4">User4</option>
+       -->
+    </select>
+  </div>
+  <div id="content">
+    <h3>Detail</h3>
+    <hr>
+    <div id="profilePictureContainer">
+      <img src="/resources/profilePic.jpg" id="profilePicture">
+      <form action="demo_form.asp">
+        <input id="pictureInput" type="file" name="pic" accept="image/*">
+      </form>
+    </div>
+    <div id="profileContent">
+      <form action="serletName.jsp">
+        <label>NDIS#</label>
+        <input type="text" id="ndis" value="" placeholder="ID">
+        <br>
+        <label>Name</label>
+        <input type="text" id="name" value="" align="right" placeholder="Name">
+        <br>
+        <label>Address</label>
+        <textarea id="address" cols="20" rows="2" placeholder="Address"></textarea>
+        <br>
+        <label>Phone Number</label>
+        <input type="text" id="phone" value="" placeholder="Phone Number">
+        <br>
+        <label>Next Of Kin</label>
+        <input type="text" id="nok" value="" placeholder="Next Of Kin">
+        <br>
+        <label>Date of Birth</label>
+        <input type="text" id="dob" value="" placeholder="Date of Birth">
+        <br>
+        <label>Registered Device</label>
+        <select name="device">
+          <option value="noDevice">No Device</option>
+        </select>
+        <br>
+        <label>Notes</label>
+        <textarea name="Text1" cols="70" rows="2"></textarea>
+        <br>
+        <br>
+        <button id="btn-save">Save</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

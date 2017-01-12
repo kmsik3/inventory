@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry location="C:\DEV\SQL_JDBC\mysql-connector-java-5.0.8-bin.jar" />
+	<context id="context1">
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/exam" userId="root"
+			password="ehqpfmaks0321!" />
+
+		<javaModelGenerator targetPackage="com.unitech.exam.model" targetProject="Exam/src/main/java">
+		</javaModelGenerator>
+		<sqlMapGenerator targetPackage="sqlmap" targetProject="Exam/src/main/resources">
+		</sqlMapGenerator>
+		<javaClientGenerator targetPackage="com.unitech.exam.mapper" targetProject="Exam/src/main/java" type="XMLMAPPER">
+		</javaClientGenerator>
+		
+		<table tableName="USERS_INFO"></table>
+		
+	</context>
+</generatorConfiguration>

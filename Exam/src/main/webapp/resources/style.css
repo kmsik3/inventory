@@ -1,0 +1,72 @@
+html,body
+{
+  margin:0px;
+  padding:0px;
+  height:100%;
+}
+
+#contentContainer
+{
+  height:100%;
+}
+#sideBar
+{
+  float:left;
+  width:200px;
+  height:100%;
+}
+
+#content
+{
+}
+
+#profilePicture
+{
+  width:200px;
+  border-width:2px;
+  border-color: #D3D3D3;
+  border-style: solid;
+}
+#profilePictureContainer
+{
+  float:left;
+  height: 100%;
+}
+
+label
+{
+  width:150px;
+display:inline-block;
+text-align: right;
+margin-right:10px;
+vertical-align: top;
+margin-bottom: 18px;
+font-weight: bold;
+}
+
+input
+{
+  border-style: solid;
+  border-color: #D3D3D3;
+  border-width: 1px;
+}
+
+textarea
+{
+  border-style: solid;
+  border-color: #D3D3D3;
+  border-width: 1px;
+}
+
+#pictureInput
+{
+  border:none;
+}
+
+#saveButton
+{
+  background-color: green;
+  color: white;
+  width:60px;
+  height:30px;
+}
